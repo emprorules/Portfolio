@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">Tha'er Al Marmouri</div>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- hero -->
+    <main class="hero" id="home">
+      <div>
+        <img class="hero-img" src="myphoto.jpg" alt="my photo" />
+      </div>
+      <h1>Tha'er Al Marmouri</h1>
+      <h2>Front-End Web Developer</h2>
+      <p>
+        I build clean, responsive websites using HTML, CSS, and JavaScript. This
+        page is a sample student portfolio built with plain HTML and CSS only.
+      </p>
+      <a href="#" class="btn">View my Work</a>
+      <a href="#" class="btn btn-outline">Contact Me</a>
+    </main>
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a student developer passionate about building websites that
+              are simple, accessible, and easy to use. I enjoy turning designs
+              into working pages with clean, well-structured code.
+            </p>
+            <p>
+              This portfolio itself is an example of a single-page HTML/CSS
+              layout, built without any JavaScript or animation, so it's easy to
+              read and learn from.
+            </p>
+          </div>
+          <div class="about-info">
+         <ul>
+            <li><strong>Name:</strong> Tha'er Al Marmouri</li>
+            <li><strong>Location:</strong> Amman, Jordan</li>
+            <li><strong>Email:</strong> Thaer_Almarmouri@outlook.com</li>
+            <li><strong>Availability:</strong> Open to Internships</li>
+         </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>HTML5</h3>
+                    <div class="skill-bar">
+                        <div class="skill-bar-full" style="width: 50%;"></div>
+                    </div>
+                    </div>
+                    <div class="skill-card">
+                    <h3>CSS3</h3>
+                    <div class="skill-bar">
+                        <div class="skill-bar-full" style="width: 70%;"></div>
+                    </div>
+                    </div>
+                    <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-bar-full" style="width: 80%;"></div>
+                    </div>
+                    </div>
+                    <div class="skill-card">
+                    <h3>Responsive Design</h3>
+                    <div class="skill-bar">
+                        <div class="skill-bar-full" style="width: 95;"></div>
+                        </div>
+                    </div>
+                            
+        </div>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+<div class="container">
+            <h2 class="section-title">My <span>Projects</span></h2>
+<div class="projects-grid">
+  <div class="project-card">
+<div class="project-thumb">Project Image</div>
+<div class="project-body">
+  <h3>Recipe Finder</h3>
+  <p>A simple site that lets users search and save their favorite recipes</p>
+</div>
+<div class="tags">
+  <span>HTML</span>
+  <span>CSS</span>
+  <span>JavaScript</span>
+</div>
+<a href="#" class="project-link">View Project &rarr;</a>
+  </div>
+  <div class="project-card">
+<div class="project-thumb">
+  <!-- <img class="pro1" href="myphoto.jpg" alt="Project Image"> -->
+Project Image
+</div>
+<div class="project-body">
+  <h3>Weather App</h3>
+  <p>Displays live weather information for any city using a public API</p>
+</div>
+<div class="tags">
+  <span>HTML</span>
+  <span>CSS</span>
+  <span>API</span>
+</div>
+<a href="#" class="project-link">View Project &rarr;</a>
+  </div>
+  <div class="project-card">
+<div class="project-thumb">Project Image</div>
+<div class="project-body">
+  <h3>Landing Page</h3>
+  <p>A responsive marketing landing page built for a fictional startup</p>
+</div>
+<div class="tags">
+  <span>HTML</span>
+  <span>CSS</span>
+  </div>
+<a href="#" class="project-link">View Project &rarr;</a>
+  </div>
+  
+</div>
+          </div>
+
+    </section>
+    <section class="contact" id="contact">
+      <div class="container contact-content">
+<h2 class="section-title">Get In <span>Touch</span></h2>
+<p>Have a project in mind or just want to say hi? Fill out the form below or reach out through any of the links</p>
+    <form class="contact-form" action="3" method="post">
+<div class="form-group">
+  <label for="name">Name</label>
+  <input type="text" name="name" id="name" placeholder="Your Name" required>
+</div>
+<div class="form-group">
+  <label for="email">Email</label>
+  <input type="email" name="email" id="email" placeholder="you@example.com" required>
+</div>
+<div class="form-group">
+  <label for="subject">Subject</label>
+  <input type="text" name="subject" id="subject" placeholder="What's This About" required>
+</div>
+<div class="form-group">
+  <label for="message">Message</label>
+    <textarea type="text" name="message" id="message" rows="5" placeholder="Write Your Message Here..." required></textarea>
+</div>
+<button type="submit" class="btn">Send Message</button>
+    </form>
+    <div class="contact-links">
+      <a href=mailto:"Thaer_Almarmouri@outlook.com">Email</a>
+      <a href="#">Linkedin</a>
+      <a href="https://www.facebook.com/share/1DNsNiqyBV/" target="_blank">Facebook</a>
+      <a href="#">Instagram</a>
+    </div>
+    </div>
+</section>
+    <footer>
+      <p>&#169; 2026 Tha'er Almarmouri. built with HTML & CSS</p>
+    </footer>
+  </body>
+</html>
