@@ -148,7 +148,7 @@ h1 h2 h3 {
   margin-bottom: 8px;
 }
 
-.skill-bar {
+/* .skill-bar {
   background-color: var(--color-border);
   height: 8px;
   width: 100%;
@@ -159,7 +159,7 @@ h1 h2 h3 {
   background-color: var(--color-primary);
   height: 100%;
   border-radius: inherit;
-}
+} */
 
 /* header */
 header {
@@ -402,6 +402,10 @@ footer {
   color: var(--color-border-light);
   font-size: 15px;
   text-align: center;
+}
+
+.res {
+  mix-blend-mode: multiply;
 }
 
 /* Responsive Mobile */
