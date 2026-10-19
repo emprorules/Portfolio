@@ -384,7 +384,7 @@ header {
   margin-top: 25px;
 }
 
-.contact-links a {
+/* .contact-links a {
   background-color: var(--color-tag-bg);
   color: var(--color-text);
   font-size: 12px;
@@ -392,7 +392,7 @@ header {
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   border-color: var(--color-white);
-}
+} */
 
 /* Footer */
 
@@ -408,6 +408,10 @@ footer {
   mix-blend-mode: multiply;
 }
 
+.social-icon {
+  width: 35px;
+  height: 35px;
+}
 /* Responsive Mobile */
 @media (max-width: 600px) {
   .navbar {
