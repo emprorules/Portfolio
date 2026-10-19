@@ -140,6 +140,7 @@ h1 h2 h3 {
   border-radius: var(--radius);
   padding: 25px 15px;
   text-align: center;
+  font-family: "Poppins", monospace;
 }
 
 .skill-card h3 {
